@@ -1,6 +1,7 @@
 import zipfile 
- 
-myfile = 'myfile.zip' 
+
+name = raw_input("Enter the name of your zip file : ") 
+myfile = name 
 w_list = 'list.txt' 
  
 password = None 
